@@ -1,0 +1,28 @@
+/*Event create page*/
+
+#event-create-container{
+    padding: 30px;
+}
+#event-create-container label{
+    font-weight: bold;
+}
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea{
+    font-size: 12px;
+    margin: 0 0 .5rem .5rem;
+}
+#event-create-container form{
+    margin: 0 auto;
+    width: 50%;
+}
+#event-create-container h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*Edit Page*/
+.img-preview{
+    width: 245px;
+    margin-top: 20px;
+}

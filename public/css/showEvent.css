@@ -1,0 +1,61 @@
+/*Event Page*/
+#image-container,
+#info-container{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p{
+    margin: 0px;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3,
+#description-container h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon{
+    font-size: 20px;
+    color: #f2a340;
+    margin-right: 5px;
+}
+
+#info-container #event-submit{
+    margin: 20px 0;
+}
+
+.items-list{
+    list-style: none;
+    padding-left: 0;
+}
+.items-list li{
+    display: flex;
+}
+#description-container{
+    box-shadow: .5px .5px 5px rgba(61, 59, 59, 0.445);
+    margin: 25px 0 25px 20px;
+    padding: 20px;
+    width: 480px;
+}
+
+/*Sho page info*/
+#info-container .alread-joined-msg{
+    margin: 15px 0;
+    color: #004085;
+    background-color: #CCE5FF;
+    border: 1px solid #88DAFF;
+    padding: 10px;
+    width: 315px;
+}

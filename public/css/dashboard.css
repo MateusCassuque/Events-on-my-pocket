@@ -1,0 +1,31 @@
+
+/*Dashboard*/
+.dashboard-title-container{
+    margin: 30px auto;
+}
+
+.dashboard-events-container th{
+    width: 25%;
+}
+.dashboard-events-container form{
+    display: inline-block;
+}
+
+h1{
+    margin: 15px 0;
+    color: #004085;
+    background-color: #CCE5FF;
+    border: 1px solid #88DAFF;
+    padding: 10px;
+}
+
+
+@media(max-width: 720px){
+    *{
+        font-size: 12px;
+    }
+
+    h1{
+        text-align: center;
+    }
+}
